@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* 共通部分のCSS */
-
 html {
   font-size: 62.5%;
 }
@@ -18,9 +17,11 @@ a:link, a:visited, a:hover, a:active {
 }
 
 /* ベースになるレイアウトのCSS */
-
 .header {
   width: 100%;
+  padding: 28px 0 10px;
+  background: url('../images/bg-header.gif') repeat-x;
+  box-shadow: 0 0 10px 1px #e3e3e3;
 }
 .wrapper {
   width: 970px;
@@ -42,4 +43,20 @@ a:link, a:visited, a:hover, a:active {
 }
 .footer {
   width: 100%;
+}
+
+/* サイトロゴのCSS */
+.logo {
+  width: 225px;
+  height: 56px;
+  margin: 0 auto;
+  background: url('../images/logo.png') no-repeat;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+.logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
