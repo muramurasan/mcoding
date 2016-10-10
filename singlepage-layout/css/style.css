@@ -154,4 +154,11 @@ body {
 .work-text {
   display: table-cell;
   vertical-align: middle;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.work-text .button {
+  width: 60%;
+  margin-top: 20px;
+  padding: 3px;
 }
