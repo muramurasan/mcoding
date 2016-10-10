@@ -145,3 +145,13 @@ body {
   width: 100%;
   height: 50%;
 }
+.work-description-inner {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+.work-text {
+  display: table-cell;
+  vertical-align: middle;
+}
