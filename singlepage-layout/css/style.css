@@ -145,6 +145,13 @@ body {
 .work-box.sky::after {
   background-image: url("../images/sky.jpg");
 }
+.work-box:nth-child(odd) .work-image {
+  margin: 60% 0 0;
+}
+.work-box:nth-child(odd) .work-description,
+.work-box:nth-child(odd)::after {
+  top: 0;
+}
 .work-image {
   display: block;
   width: 100%;
