@@ -110,3 +110,13 @@ body {
   background-color: #383634;
   padding: 80px 0;
 }
+
+.works-wrapper {
+  display: table;
+  width: 100%;
+  margin-top: 60px;
+  table-layout: fixed;
+}
+.work-box {
+  display: table-cell;
+}
