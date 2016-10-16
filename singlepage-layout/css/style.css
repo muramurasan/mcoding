@@ -187,3 +187,12 @@ body {
   border: 1px solid #fff;
   background-color: rgba(255, 255, 255, 0.15);
 }
+
+
+/* MY SKILLS */
+
+.skills {
+  padding: 80px 0;
+  background-color: #fff;
+  color: #333;
+}
